@@ -157,7 +157,7 @@ public class WhatsappRepository {
                 return "SUCCESS";
             }
         }
-        throw new Exception("Approver does not have rights");
+        throw new Exception("Group does not exist");
 
 
 
